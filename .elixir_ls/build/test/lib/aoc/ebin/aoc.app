@@ -1,0 +1,13 @@
+{application,aoc,
+             [{optional_applications,[]},
+              {applications,[kernel,stdlib,elixir,logger,runtime_tools,
+                             phoenix,phoenix_live_dashboard,swoosh,finch,
+                             telemetry_metrics,telemetry_poller,gettext,jason,
+                             dns_cluster,bandit]},
+              {description,"aoc"},
+              {modules,['Elixir.Aoc','Elixir.Aoc.Application',
+                        'Elixir.Aoc.Mailer','Elixir.AocWeb',
+                        'Elixir.AocWeb.ConnCase']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.Aoc.Application',[]}}]}.
