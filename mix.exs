@@ -36,7 +36,8 @@ defmodule Aoc.MixProject do
       {:phoenix_live_dashboard, "~> 0.8.3"},
       {:gettext, "~> 0.20"},
       {:jason, "~> 1.2"},
-      {:bandit, "~> 1.5"}
+      {:bandit, "~> 1.5"},
+      {:mix_test_watch, "~> 1.0", only: [:dev, :test], runtime: false}
     ]
   end
 

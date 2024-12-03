@@ -4,7 +4,8 @@
                              phoenix,phoenix_live_dashboard,gettext,jason,
                              bandit]},
               {description,"aoc"},
-              {modules,['Elixir.Aoc','Elixir.Aoc.Application','Elixir.D1']},
+              {modules,['Elixir.Aoc','Elixir.Aoc.Application','Elixir.D1',
+                        'Elixir.D2']},
               {registered,[]},
               {vsn,"0.1.0"},
               {mod,{'Elixir.Aoc.Application',[]}}]}.
