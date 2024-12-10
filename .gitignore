@@ -6,6 +6,9 @@
 
 # The directory Mix downloads your dependencies sources to.
 /deps/
+.elixir_ls
+
+.DS_Store
 
 # Where 3rd-party dependencies like ExDoc output generated docs.
 /doc/
@@ -25,5 +28,5 @@ erl_crash.dump
 # Ignore package tarball (built via "mix hex.build").
 aoc-*.tar
 
-.elixir_ls/
+
 
