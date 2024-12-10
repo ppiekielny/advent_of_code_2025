@@ -2,9 +2,14 @@ defmodule Mix.Tasks.NextDay do
   use Mix.Task
 
   @shortdoc "Create a new day"
+  @impl Mix.Task
   def run([day]) do
+    IO.inspect("Creating day #{day}")
     app_dir = File.cwd!()
-    app_name = Path.basename(app_dir)
+    app_name = "aoc"
+
+    File.mkdir!(Path.join([app_dir, "lib", app_name, "d#{day}"]))
+
     new_file_path = Path.join([app_dir, "lib", app_name, "d#{day}", "d#{day}.ex"])
 
     File.write(
