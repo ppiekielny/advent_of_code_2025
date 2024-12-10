@@ -49,13 +49,13 @@ defmodule Mix.Tasks.NextDay do
         test "part1" do
           input = ""
 
-          assert D7.part1(input) == 3749
+          assert D#{day}.part1(input) == 3749
         end
 
         test "part2" do
           input = ""
 
-          assert D7.part2(input) == 11387
+          assert D#{day}.part2(input) == 11387
         end
       end
       """,
